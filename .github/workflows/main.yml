@@ -27,7 +27,7 @@ jobs:
 
     - name: Build Docker image
       run: |
-        docker build -t my-app .
+        docker build -t srija-service2 .
 
     - name: Done
       run: echo "CI/CD Completed Successfully!"
